@@ -17,7 +17,7 @@ const Wrap = styled.div`
 const Strapbox = styled.div`
   width: 50%;
   height: 100%;
-  border: 0.5px solid lightgray;
+  border: 0.25px solid rgba(255, 255, 255, 0.2);
   position: relative;
   border-right: none;
   top: 0;

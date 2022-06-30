@@ -66,7 +66,7 @@ const Img3 = styled.img`
   animation-delay: 4s;
 `;
 
-export const Logobox = () => {
+export const Logobox3 = () => {
   return (
     <Wrap>
       <Img1 src={img1} />
