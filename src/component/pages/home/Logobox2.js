@@ -34,14 +34,14 @@ const photo2 = keyframes`
 transform: translate(0,0) ;
 }
 16.66667%{
-transform: translate(0,220px) ;
+transform: translate(0,200px) ;
 }
 `;
 const Img2 = styled.img`
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   position: absolute;
-  top: -220px;
+  top: -200px;
   right: 0px;
   animation: ${photo2} 6s ease-in-out infinite;
   animation-delay: 2s;
@@ -49,19 +49,19 @@ const Img2 = styled.img`
 
 const photo3 = keyframes`
 0%,33.33333%,100%{
-transform: translate(0,0) rotateY(180deg);
+transform: translate(0,0) ;
 }
 16.66667%{
-transform: translate(220px,0) rotateY(180deg);
+transform: translate(-200px,0) ;
 }
 `;
 
 const Img3 = styled.img`
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   position: absolute;
   top: 0;
-  right: -220px;
+  right: -200px;
   animation: ${photo3} 6s ease-in-out infinite;
   animation-delay: 4s;
 `;

@@ -11,7 +11,7 @@ ${reset}
 
 body{
     font-family: 'Noto Sans KR', sans-serif;
-    background-color: gray;
+    /* background-color: gray; */
 }
 a{
     text-decoration: none;

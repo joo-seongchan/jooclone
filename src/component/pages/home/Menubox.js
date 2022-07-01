@@ -36,10 +36,7 @@ const move = keyframes`
 `;
 const Menu = styled.div`
   position: absolute;
-
   z-index: 9999;
-  border-bottom: solid 2px white;
-  padding-bottom: 5px;
   overflow: hidden;
   opacity: 0;
   animation: ${move} 0.5s linear forwards;
@@ -47,6 +44,15 @@ const Menu = styled.div`
     color: white;
     font-size: 24px;
     font-weight: 700;
+    display: flex;
+    width: 33.33333vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    span {
+      padding-bottom: 5px;
+      border-bottom: 1px solid white;
+    }
   }
 `;
 const BlackCover = styled.div`
@@ -71,7 +77,9 @@ export const Menubox = ({ num }) => {
       }}
     >
       <Menu style={{ animationDelay: `${menuDb[`${num}`].delay}` }}>
-        <Link to={`/${menuDb[`${num}`].link}`}>{menuDb[`${num}`].title}</Link>
+        <Link to={`/${menuDb[`${num}`].link}`}>
+          <span>{menuDb[`${num}`].title}</span>
+        </Link>
       </Menu>
       <Strapbox />
       <Strapbox />
