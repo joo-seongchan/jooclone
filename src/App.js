@@ -4,7 +4,7 @@ import { Header } from "./component/header/Header";
 import { About } from "./component/pages/detail/about/About";
 import { Home } from "./component/pages/home/Home";
 import { NotFound } from "./component/pages/NotFound";
-import { GlobalStyle } from "./style/GlobalStyle";
+import { GlobalStyle } from "./style/globalStyle";
 
 export const App = () => {
   return (
