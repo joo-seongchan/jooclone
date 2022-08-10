@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/jooclone/static/js/main.b31457df.js",
+    "static/media/img3.png": "/jooclone/static/media/img3.d499694aa0b02a546a7f.png",
+    "static/media/img4.png": "/jooclone/static/media/img4.4b3901333f16a5747e9c.png",
+    "index.html": "/jooclone/index.html",
+    "main.b31457df.js.map": "/jooclone/static/js/main.b31457df.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b31457df.js"
+  ]
+}
